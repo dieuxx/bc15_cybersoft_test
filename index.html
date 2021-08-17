@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meipaly</title>
+
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Font-google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <!-- slick carousel -->
+    <link rel="stylesheet" href="./lib/slick/slick.css">
+    <link rel="stylesheet" href="./lib/slick/slick-theme.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__content">
+            <!-- brand -->
+            <a href="#home" class="header__logo">
+                <i class="fab fa-atlassian"></i>
+                <span>meipaly</span>
+            </a>
+
+            <!-- Menu -->
+            <nav>
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Showcase</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Carousel -->
+    <section id="carousel">
+        <div class="carousel__content">
+            <h3>WELCOME TO MEIPALY AGENCY</h3>
+            <h1>SMART WEB <br> DESIGN AGENCY</h1>
+            <button>Read more</button>
+
+            <div class="carousel__scroll">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service -->
+    <section id="service">
+        <div class="service__container">
+            <div class="service__title">
+                <h4>SERVICES WE ARE OFFERING</h4>
+                <h1>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES.</h1>
+                <p>We are committed to providing our customers with exceptional service while offering
+                    our employees the best training.</p>
+            </div>
+            <div class="service__content">
+                <div class="service__item">
+                    <i class="fa fa-dice-d6"></i>
+                    <p>APP MOBLIE <br> DEVLOPMENT</p>
+                </div>
+                <div class="service__item">
+                    <i class="fa fa-dice-d6"></i>
+                    <p>1APP MOBLIE <br> DEVLOPMENT</p>
+                </div>
+                <div class="service__item">
+                    <i class="fa fa-dice-d6"></i>
+                    <p>2APP MOBLIE <br> DEVLOPMENT</p>
+                </div>
+                <div class="service__item">
+                    <i class="fa fa-dice-d6"></i>
+                    <p>3APP MOBLIE <br> DEVLOPMENT</p>
+                </div><div class="service__item">
+                    <i class="fa fa-dice-d6"></i>
+                    <p>4APP MOBLIE <br> DEVLOPMENT</p>
+                </div><div class="service__item">
+                    <i class="fa fa-dice-d6"></i>
+                    <p>5APP MOBLIE <br> DEVLOPMENT</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+
+    <!-- slick carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./lib/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.service__content').slick({
+                infinite: true,
+                slidesToShow: 5,
+                slidesToScroll: 5,
+                autoplay: true,
+                arrows: false,
+                dots: true
+            });
+        });
+    </script>
+
+    <!-- Showcase -->
+    <section id="showcase">
+        <div class="showcase__title">
+            <p></p>
+            <h1></h1>
+            <p></p>
+        </div>
+        <div class="showcase__content">
+            <div class="showcase__list">
+                <div class="showcase__item">
+                    <img src="./image-video/showcase_img_1.webp" alt="">    
+                    <div class="showcase__overlay">
+                        <div class="showcase__icons">
+                            <i class="fas fa-search-plus"></i>
+                            <br>
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="showcase__text">
+                            <p>LOGO</p>
+                            <h3>FLIPPIN BIRD</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__item">
+                    <img src="./image-video/showcase_img_2.webp" alt="">    
+                    <div class="showcase__overlay">
+                        <div class="showcase__icons">
+                            <i class="fas fa-search-plus"></i>
+                            <br>
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="showcase__text">
+                            <p>LOGO</p>
+                            <h3>FLIPPIN BIRD</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__item">
+                    <img src="./image-video/showcase_img_3.webp" alt="">    
+                    <div class="showcase__overlay">
+                        <div class="showcase__icons">
+                            <i class="fas fa-search-plus"></i>
+                            <br>
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="showcase__text">
+                            <p>LOGO</p>
+                            <h3>FLIPPIN BIRD</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__item">
+                    <img src="./image-video/showcase_img_5.webp" alt="">    
+                    <div class="showcase__overlay">
+                        <div class="showcase__icons">
+                            <i class="fas fa-search-plus"></i>
+                            <br>
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="showcase__text">
+                            <p>LOGO</p>
+                            <h3>FLIPPIN BIRD</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__item">
+                    <img src="./image-video/showcase_img_6.webp" alt="">    
+                    <div class="showcase__overlay">
+                        <div class="showcase__icons">
+                            <i class="fas fa-search-plus"></i>
+                            <br>
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="showcase__text">
+                            <p>LOGO</p>
+                            <h3>FLIPPIN BIRD</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__item">
+                    <img src="./image-video/showcase_img_7.webp" alt="">    
+                    <div class="showcase__overlay">
+                        <div class="showcase__icons">
+                            <i class="fas fa-search-plus"></i>
+                            <br>
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="showcase__text">
+                            <p>LOGO</p>
+                            <h3>FLIPPIN BIRD</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </selection>
+</body>
+
+</html>
